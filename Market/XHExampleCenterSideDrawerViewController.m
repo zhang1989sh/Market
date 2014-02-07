@@ -31,11 +31,12 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
     self.bannerIsVisible = NO;
     
 	// Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor grayColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     _arr = [[NSArray alloc] initWithObjects:@"1",@"1",@"1",@"1",@"1", nil];
 }
 

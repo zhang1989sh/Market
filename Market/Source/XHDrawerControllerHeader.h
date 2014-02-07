@@ -8,7 +8,8 @@
 
 #ifndef XHDrawerController_XHDrawerControllerHeader_h
 #define XHDrawerController_XHDrawerControllerHeader_h
-static const CGFloat XHContentContainerViewOriginX = 180.0f;
+//右边的偏移量
+static const CGFloat XHContentContainerViewOriginX = 200.0f;
 
 static inline void xh_UIViewSetFrameOriginX(UIView *view, CGFloat originX) {
     [view setFrame:CGRectMake(originX, CGRectGetMinY([view frame]), CGRectGetWidth([view frame]), CGRectGetHeight([view frame]))];
