@@ -15,8 +15,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        
-        NSLog(@"jin lail");
     }
     return self;
 }

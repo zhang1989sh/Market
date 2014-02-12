@@ -34,7 +34,7 @@
     drawerController.rightViewController = rightSideDrawerViewController;
     drawerController.centerViewController = [[UINavigationController alloc] initWithRootViewController:centerSideDrawerViewController];
     
-    UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MenuBackground"]];
+    UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"root_background.jpg"]];
     [backgroundImageView setContentMode:UIViewContentModeCenter];
     drawerController.backgroundView = backgroundImageView;
     

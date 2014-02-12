@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"商品";
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -40,16 +41,16 @@
 //}
 
 
-//- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    return CGSizeMake(300,174);
-//}
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return CGSizeMake(310,180);
+}
 
 
-//- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
-//{
-//    return UIEdgeInsetsMake(8, 8, 0, 8);
-//}
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
+{
+    return UIEdgeInsetsMake(8, 8, 0, 8);
+}
 
 //水平 间距
 //- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
@@ -86,15 +87,26 @@
 //        return cell;
     
     
-//    UINib *nib = [UINib nibWithNibName:@"ShopDetailCell"
-//                                bundle: [NSBundle mainBundle]];
-//    [collectionView registerNib:nib forCellWithReuseIdentifier:@"ShopDetailCell"];
+    UINib *nib = [UINib nibWithNibName:@"ShopDetailCell"
+                                bundle: [NSBundle mainBundle]];
+    [collectionView registerNib:nib forCellWithReuseIdentifier:@"ShopCell"];
     ShopDetailCell *cell = [[ShopDetailCell alloc]init];
     
     // Set up the reuse identifier
-    cell = [collectionView dequeueReusableCellWithReuseIdentifier: @"ShopDetailCell"
+    cell = [collectionView dequeueReusableCellWithReuseIdentifier: @"ShopCell"
                                                      forIndexPath:indexPath];
     return cell;
+    
+    
+    // Register nib file for the cell
+//    UINib *nib = [UINib nibWithNibName:@"ReportFilterCollectionViewCell"
+//                                bundle: [NSBundle mainBundle]];
+//    [collectionView registerNib:nib forCellWithReuseIdentifier:@"reportFilterCell"];
+//    ReportFilterViewControllerCell *cell = [[ReportFilterViewControllerCell alloc]init];
+//    
+//    // Set up the reuse identifier
+//    cell = [collectionView dequeueReusableCellWithReuseIdentifier: @"reportFilterCell"
+//                                                     forIndexPath:indexPath];
 }
 
 
