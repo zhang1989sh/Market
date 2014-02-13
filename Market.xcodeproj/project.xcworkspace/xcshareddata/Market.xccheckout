@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>2960ACD4-04F2-45EB-A191-1D528E9549FA</string>
+=======
+	<string>6A49E3C0-8C29-4B1C-A920-FA84E3E3B9F8</string>
+>>>>>>> 32e435e54b412a159fa0d643422d9a034a7ab0dd
 	<key>IDESourceControlProjectName</key>
 	<string>Market</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>08B30197-057A-4E34-B41B-8C3939D7FB63</key>
+=======
+		<key>03E47326-8637-4DB3-A172-4AFE34160AF5</key>
+>>>>>>> 32e435e54b412a159fa0d643422d9a034a7ab0dd
 		<string>https://github.com/zhang1989sh/Market.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Market.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>08B30197-057A-4E34-B41B-8C3939D7FB63</key>
+=======
+		<key>03E47326-8637-4DB3-A172-4AFE34160AF5</key>
+>>>>>>> 32e435e54b412a159fa0d643422d9a034a7ab0dd
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>08B30197-057A-4E34-B41B-8C3939D7FB63</string>
+=======
+	<string>03E47326-8637-4DB3-A172-4AFE34160AF5</string>
+>>>>>>> 32e435e54b412a159fa0d643422d9a034a7ab0dd
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>08B30197-057A-4E34-B41B-8C3939D7FB63</string>
+=======
+			<string>03E47326-8637-4DB3-A172-4AFE34160AF5</string>
+>>>>>>> 32e435e54b412a159fa0d643422d9a034a7ab0dd
 			<key>IDESourceControlWCCName</key>
 			<string>Market</string>
 		</dict>

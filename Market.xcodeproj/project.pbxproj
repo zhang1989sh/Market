@@ -31,11 +31,14 @@
 		41353D73189119DD0043DB04 /* XHExampleLeftSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41353D6D189119DD0043DB04 /* XHExampleLeftSideDrawerViewController.m */; };
 		41353D74189119DD0043DB04 /* XHExampleRightSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41353D6F189119DD0043DB04 /* XHExampleRightSideDrawerViewController.m */; };
 		41353D75189119DD0043DB04 /* XHExampleCenterSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41353D71189119DD0043DB04 /* XHExampleCenterSideDrawerViewController.m */; };
+		891B1EC418A7DC8F00CDA6CD /* ShopDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 891B1EC318A7DC8F00CDA6CD /* ShopDetailCell.m */; };
+		891B1EC618A7DCAD00CDA6CD /* ShopDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 891B1EC518A7DCAD00CDA6CD /* ShopDetailCell.xib */; };
 		8938AB9A18A21A0E009FC45F /* XHExampleCenterSideDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8938AB9918A21A0E009FC45F /* XHExampleCenterSideDrawerViewController.xib */; };
 		8938AB9D18A21E82009FC45F /* MarketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8938AB9C18A21E82009FC45F /* MarketCell.m */; };
 		8938AB9F18A21E90009FC45F /* MarketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8938AB9E18A21E90009FC45F /* MarketCell.xib */; };
 		8938ABA318A2231D009FC45F /* ShopDetailViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8938ABA118A2231D009FC45F /* ShopDetailViewViewController.m */; };
 		8938ABA418A2231D009FC45F /* ShopDetailViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8938ABA218A2231D009FC45F /* ShopDetailViewViewController.xib */; };
+		89B1731818ABD1220043AC7D /* root_background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89B1731718ABD1220043AC7D /* root_background@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		41353D6F189119DD0043DB04 /* XHExampleRightSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleRightSideDrawerViewController.m; sourceTree = "<group>"; };
 		41353D70189119DD0043DB04 /* XHExampleCenterSideDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHExampleCenterSideDrawerViewController.h; sourceTree = "<group>"; };
 		41353D71189119DD0043DB04 /* XHExampleCenterSideDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHExampleCenterSideDrawerViewController.m; sourceTree = "<group>"; };
+		891B1EC218A7DC8F00CDA6CD /* ShopDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailCell.h; sourceTree = "<group>"; };
+		891B1EC318A7DC8F00CDA6CD /* ShopDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailCell.m; sourceTree = "<group>"; };
+		891B1EC518A7DCAD00CDA6CD /* ShopDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopDetailCell.xib; sourceTree = "<group>"; };
 		8938AB9918A21A0E009FC45F /* XHExampleCenterSideDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHExampleCenterSideDrawerViewController.xib; sourceTree = "<group>"; };
 		8938AB9B18A21E82009FC45F /* MarketCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketCell.h; sourceTree = "<group>"; };
 		8938AB9C18A21E82009FC45F /* MarketCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketCell.m; sourceTree = "<group>"; };
@@ -94,6 +100,7 @@
 		8938ABA018A2231D009FC45F /* ShopDetailViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailViewViewController.h; sourceTree = "<group>"; };
 		8938ABA118A2231D009FC45F /* ShopDetailViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailViewViewController.m; sourceTree = "<group>"; };
 		8938ABA218A2231D009FC45F /* ShopDetailViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopDetailViewViewController.xib; sourceTree = "<group>"; };
+		89B1731718ABD1220043AC7D /* root_background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "root_background@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +170,7 @@
 				41353D42189119020043DB04 /* ViewController.m */,
 				41353D3E189119020043DB04 /* Main.storyboard */,
 				41353D44189119020043DB04 /* Images.xcassets */,
+				89B1731718ABD1220043AC7D /* root_background@2x.jpg */,
 				41353D33189119020043DB04 /* Supporting Files */,
 			);
 			path = Market;
@@ -232,6 +240,9 @@
 				8938ABA018A2231D009FC45F /* ShopDetailViewViewController.h */,
 				8938ABA118A2231D009FC45F /* ShopDetailViewViewController.m */,
 				8938ABA218A2231D009FC45F /* ShopDetailViewViewController.xib */,
+				891B1EC218A7DC8F00CDA6CD /* ShopDetailCell.h */,
+				891B1EC318A7DC8F00CDA6CD /* ShopDetailCell.m */,
+				891B1EC518A7DCAD00CDA6CD /* ShopDetailCell.xib */,
 			);
 			name = XH;
 			sourceTree = "<group>";
@@ -312,6 +323,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B1731818ABD1220043AC7D /* root_background@2x.jpg in Resources */,
+				891B1EC618A7DCAD00CDA6CD /* ShopDetailCell.xib in Resources */,
 				8938AB9A18A21A0E009FC45F /* XHExampleCenterSideDrawerViewController.xib in Resources */,
 				41353D45189119020043DB04 /* Images.xcassets in Resources */,
 				41353D37189119020043DB04 /* InfoPlist.strings in Resources */,
@@ -343,6 +356,7 @@
 				8938ABA318A2231D009FC45F /* ShopDetailViewViewController.m in Sources */,
 				41353D671891199E0043DB04 /* XHDrawerController.m in Sources */,
 				41353D43189119020043DB04 /* ViewController.m in Sources */,
+				891B1EC418A7DC8F00CDA6CD /* ShopDetailCell.m in Sources */,
 				41353D3D189119020043DB04 /* AppDelegate.m in Sources */,
 				41353D681891199E0043DB04 /* XHZoomDrawerView.m in Sources */,
 				41353D39189119020043DB04 /* main.m in Sources */,

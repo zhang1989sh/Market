@@ -8,6 +8,7 @@
 
 #import <iAd/iAd.h>
 #import "MarketCell.h"
+#import "ShopDetailViewViewController.h"
 #import "XHExampleCenterSideDrawerViewController.h"
 
 @interface XHExampleCenterSideDrawerViewController ()<ADBannerViewDelegate>
@@ -40,44 +41,44 @@
     _arr = [[NSArray alloc] initWithObjects:@"1",@"1",@"1",@"1",@"1", nil];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-- (void)bannerViewDidLoadAd:(ADBannerView *)banner{
-    NSLog(@"OK");
-    if (!self.bannerIsVisible) {
-        [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
-        //banner is invisible now and moved out of the screen on 50px
-        banner.frame = CGRectOffset(banner.frame, 0, 50);
-        [UIView commitAnimations];
-        self.bannerIsVisible = YES;
-    }
-}
-- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
-    NSLog(@"ERROR");
-    if (self.bannerIsVisible) {
-        [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
-        //banner is visible and we move it out of the screen, due to connection issue
-        banner.frame = CGRectOffset(banner.frame, 0, -50);
-        [UIView commitAnimations];
-        self.bannerIsVisible = NO;
-    }
-}
-- (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave{
-    //banner view is beginning an ad action
-    NSLog(@"Begin");
-    BOOL shouldExecuteAction = YES;
-    if (!willLeave && shouldExecuteAction) {
-        //shop all interactive processes in the app
-    }
-    return shouldExecuteAction;
-}
-- (void)bannerViewActionDidFinish:(ADBannerView *)banner{
-    //resume everyting you have stopped
-    NSLog(@"Finish");
-}
+//- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+//{
+//    // Return YES for supported orientations
+//    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+//}
+//- (void)bannerViewDidLoadAd:(ADBannerView *)banner{
+//    NSLog(@"OK");
+//    if (!self.bannerIsVisible) {
+//        [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
+//        //banner is invisible now and moved out of the screen on 50px
+//        banner.frame = CGRectOffset(banner.frame, 0, 50);
+//        [UIView commitAnimations];
+//        self.bannerIsVisible = YES;
+//    }
+//}
+//- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
+//    NSLog(@"ERROR");
+//    if (self.bannerIsVisible) {
+//        [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
+//        //banner is visible and we move it out of the screen, due to connection issue
+//        banner.frame = CGRectOffset(banner.frame, 0, -50);
+//        [UIView commitAnimations];
+//        self.bannerIsVisible = NO;
+//    }
+//}
+//- (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave{
+//    //banner view is beginning an ad action
+//    NSLog(@"Begin");
+//    BOOL shouldExecuteAction = YES;
+//    if (!willLeave && shouldExecuteAction) {
+//        //shop all interactive processes in the app
+//    }
+//    return shouldExecuteAction;
+//}
+//- (void)bannerViewActionDidFinish:(ADBannerView *)banner{
+//    //resume everyting you have stopped
+//    NSLog(@"Finish");
+//}
 
 
 
@@ -127,6 +128,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    ShopDetailViewViewController *RegistrationSubmit = [[ShopDetailViewViewController alloc] initWithNibName:@"ShopDetailViewViewController" bundle:nil];
+    [self.navigationController pushViewController:RegistrationSubmit animated:YES];
 }
 
 
